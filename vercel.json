@@ -14,5 +14,9 @@
       "src": "/(.*)",
       "dest": "/index.html"
     }
+  ],
+  "domains": [
+    "fgc.fastjobcareer.com",
+    "fast-global-visa-counsultant.vercel.app"
   ]
 }
