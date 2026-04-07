@@ -24,13 +24,13 @@ function App() {
           <Header />
           <main>
             <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path="/about" element={<AboutUs />} />
-              <Route path="/services/work-visa" element={<WorkVisa />} />
-              <Route path="/services/study-visa" element={<StudyVisa />} />
-              <Route path="/services/visit-visa" element={<VisitVisa />} />
-              <Route path="/services/immigration" element={<Immigration />} />
-              <Route path="/contact" element={<Contact />} />
+              <Route path="/" component={Home} />
+              <Route path="/about" component={AboutUs} />
+              <Route path="/services/work-visa" component={WorkVisa} />
+              <Route path="/services/study-visa" component={StudyVisa} />
+              <Route path="/services/visit-visa" component={VisitVisa} />
+              <Route path="/services/immigration" component={Immigration} />
+              <Route path="/contact" component={Contact} />
             </Routes>
             
             {/* Global Assessment Form - Available on all pages */}
